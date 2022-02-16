@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/happyboymafor1@gmail.com';
+      action = 'contactForm';
     }
     $.ajax({
       type: "POST",
