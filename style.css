@@ -775,6 +775,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  inline-size: 100%;
 }
 
 .work-img img {
